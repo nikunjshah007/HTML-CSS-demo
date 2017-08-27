@@ -1,0 +1,32 @@
+body{
+	background-color: lightblue;
+	color: blue;
+}
+h1{
+	color: red;
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	letter-spacing: 30px;/*is space between one latter */
+	line-height: 5.00; /*its work on space bettewn two lines */
+	text-shadow:5px 8px black;
+	
+}
+h2{
+	color: yellow;
+	text-align: right;
+	text-decoration: overline;
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	direction:rtl;
+	text-shadow:7px 10px black;
+}
+p{
+	color: green;
+	text-align: left;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-indent: 50px; /*is help to do paregraft */
+	word-spacing: 100px;/* its work on space between word */
+	text-shadow:-5px -8px black;
+}

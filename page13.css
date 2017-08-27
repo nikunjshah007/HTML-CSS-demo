@@ -1,0 +1,31 @@
+div.picbox{
+	float: left;
+	text-align: center;
+	width: 120px;
+	border:2px solid lightblue;
+	margin: 0px 0px 50px 0px;
+	padding: 6px;
+
+}
+button{
+	width: 100%;
+}
+
+.flip,#panel{
+	background-color: green;
+	color: white;
+	text-align: center;
+	border:4	px solid lightgreen;
+	padding: 20px;
+	margin: 10px;
+	font-size: 14px;
+	clear: left;/*clear use to clear one side there is no one element..this tag use bottom to do clear side*/
+
+
+}
+#panel{
+	display: none;
+	clear: left;/*it is help to hide and than click u can see that text with help of <script>
+function display(){
+	document.getElementById("panel").style.display="block";
+}*/

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page32-c</title>
+	<style>
+	.tooltip{
+		position: relative;
+		display: inline-block;
+	}
+	.tooltip-co{
+		width: 120px;
+		position: absolute;
+		padding: 5px 0px;
+		border-radius: 5px;
+		background: black;
+		color: #fff;
+		visibility: hidden;
+		text-align: center;
+		z-index: 1;
+		bottom:100%;
+		left: 50%;
+		margin-left: -60px;
+	}
+	.tooltip:hover .tooltip-co{
+		visibility: visible;}
+		.tooltip .tooltip-co::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+
+	}
+	</style>
+	<body style="text-align:center" >
+		<h2>Top Tooltip</h2>
+<p>Move the mouse over the text below:</p>
+<br>
+
+		<div class="tooltip">
+			wellcome 
+			<span class="tooltip-co">hello</span>
+		</div>

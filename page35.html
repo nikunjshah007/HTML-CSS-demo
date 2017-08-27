@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page-35</title>
+	<style type="text/css">
+	a[target] {/* its use only on a with includ target */
+    background-color: yellow;
+}
+    a[target="_blank"] {/* its use on all a with target="_blank" only */
+    background-color: red;
+}
+    [title~=flower]{/* its apply to that have title="flower" */
+    border: 5px solid yellow;
+}
+[class|=top] {
+    background: red;/*its apply on class bigging with top */
+}
+[class^="top"] {/* its apply on all class bigging with top*/
+    background: yellow;
+}
+[class$="test"] {/* its apply on class that end with test */
+    background: yellow;
+}
+[class*="co"] {/*its apply on class that consider "co" word*/
+    background: yellow;
+}
+	</style>
+	<body> 	 	
+		<a href="#">fb.com</a>
+		<a href="#" target="_top">youtube.com</a>
+		<a href="#" target="_blank">google.com</a>
+		<hr>
+		<img src="pic1.jpg" title="flower" width="100" height="115">
+		<img src="pic2.jpg" title="klematis flower" width="150" height="113">
+		<img src="pic3.jpg" title="tree" width="150" height="115">
+		<hr>
+		<h1 class="top-header">Welcome</h1>
+        <p class="top-text">Hello world!</p>
+        <p class="topcontent">Are you learning CSS?</p><hr>
+        <div class="first_test">The first div element.</div>
+        <div class="second">The second div element.</div>
+        <div class="my-test">The third div element.</div>
+        <p class="mytest">This is some text in a paragraph.</p>

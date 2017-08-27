@@ -1,0 +1,5 @@
+/*there is exmple of combinators */
+div p {/*this combinator is apply on specified element in this exmple its apply on all p teg inside div*/
+	background-color: red;
+} /* other exmple is div>p there is apply on p there under p without any other tab*/ /*other combinators is + p 
+this is a0pply on p there after div*/ /*other one is div~p this is not apply on divp ..other all p is apply it*/

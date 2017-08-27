@@ -1,0 +1,26 @@
+p::first-line{/* that is apply on first line of all p tag */
+	color: blue;
+}
+p::first-letter{ /* that is apply on all first letter on p tag*/
+	font-size: xx-large;
+}
+p.aa::first-letter{ /* that is apply on  first letter on p tag with class style*/
+	color: red;
+}
+h1::after{ /* after is usefull to insert some content after the content*/
+	content: url(pic4.jpeg);
+}
+h2::before{ /* before is usefull to insert some content before the content*/
+	content: url(pic5.jpeg);
+}
+
+
+
+::-moz-selection {/* this is use for select world*/
+	color: yellow;
+	background: red;
+}
+::selection {
+	color: yellow;
+	background: red;
+}

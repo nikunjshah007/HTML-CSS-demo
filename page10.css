@@ -1,0 +1,33 @@
+table{
+	border:1px solid black;
+	width: 500px;
+	text-align: center;/*this is help us to do text in right left or center*/
+	vertical-align: bottom;/*this tag is use help us to set text deta in top bottom or middle*/
+}
+th{
+	border:1px solid black;
+	height: 10px;
+	padding: 15px;
+	background-color: green;
+	color: white;
+}
+td{
+	border:1px solid black;
+	padding: 15px;
+
+}
+tr:nth-child(even){background-color: lightblue;
+
+}
+table.nick{
+	border-collapse: collapse;
+	border:none;
+}
+td.nick, th.nick{
+	padding: 80px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+tr.nick:hover{background-color: red;
+
+}/* do hover of tr for all data is hover*/

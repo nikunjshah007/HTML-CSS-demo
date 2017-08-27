@@ -1,0 +1,9 @@
+h1.hidden{
+	display: none;/*this style is help to hide it on webpage */
+}
+h2.bb{
+	visibility: hidden;/*this style is hide but its take some space on wabpage*/
+}
+li{
+	display: inline;/*this is help u to Display a list of links as a horizontal menu */
+}

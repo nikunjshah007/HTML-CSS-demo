@@ -1,0 +1,35 @@
+
+body{
+	margin: 0;
+}
+	ul.topnev{
+	background: gray;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ul.topnev li{
+	float: left;
+}
+ul.topnev li a{
+	display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+
+}
+ul.topnev li a:hover:not(.active){
+	background: #111;
+}
+ul.topnev li a.active{
+	background: green;
+}
+ul.topnev li.right{
+	float: right;
+}
+@media screen and (max-width: 600px){
+    ul.topnev li.right, 
+    ul.topnev li {float: none;}
+}

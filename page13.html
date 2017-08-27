@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		page-13
+	</title>
+	<link rel="stylesheet" type="text/css" href="page13.css">
+</head>
+<body>
+	<h3>Difference between display:none and visiblity: hidden</h3>
+    <p><strong>visibility:hidden</strong> hides the element, but it still takes up space in the layout.</p>
+    <p><strong>display:none</strong> removes the element from the document. It does not take up any space.</p>
+
+     <div class="picbox" id="picbox1"> first<br>
+    	<img src="pic1.jpg" alt="pic1" style="width:100%">
+    	<button onclick="box1()">remove</button>
+
+    </div>
+    <div class="picbox" id="picbox2">second<br>
+    	<img src="pic2.jpg" alt="pic2" style="width:100%">
+    	<button onclick="box2()">hiden</button>
+    </div>
+    <div class="picbox" id="picbox3">therd<br>
+    	<img src="pic3.jpg" alt="pic3" style="width:100%">
+    	<button onclick="box3()">re-set</button>
+    </div>
+
+    <script>
+    function box1() {
+    document.getElementById("picbox1").style.display = "none";
+    }
+    function box2(){
+    	document.getElementById("picbox2").style.visibility = "hidden"
+    }
+    function box3(){
+    	document.getElementById("picbox1").style.display = "block"
+    	document.getElementById("picbox2").style.visibility ="visible"
+    }
+
+     </script>
+
+<p class="flip" onclick="display()">
+	Sometimes you wake up. Sometimes the fall kills you. And sometimes, when you fall, you fly. 
+</P>
+
+<div id="panel">
+	<p><i><b>"The best preparation for tomorrow is doing your best today."</i></b></p>
+</div>
+<script>
+function display(){
+	document.getElementById("panel").style.display="block";
+}
+</script>
+</html>

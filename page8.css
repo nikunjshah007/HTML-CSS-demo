@@ -1,0 +1,22 @@
+h1{
+	font-family: "arial","time new roman";
+	font-style: normal;
+	font-size: 40px;/*its use full for font size big or small*/
+	font-variant: normal;
+}
+h2{
+	font-family: "Times";
+	font-style: italic;/*its use for do italic font */
+	font-size: 30px;
+	font-weight: normal;
+	font-variant: small-caps;/* is use full for do all font is uppercase*/
+}
+p{
+	font-family: "times","sans-serif";
+	font-style: oblique;
+	font-size: 20px;
+	font-weight: bold;/*it use for do bold font or normal */
+}
+body{
+	background-color: lightblue;
+}

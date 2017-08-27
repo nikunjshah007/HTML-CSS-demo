@@ -1,0 +1,15 @@
+p{
+	background-color: lightblue;
+	margin: 2px 760px 7px 2px;/* in this page exp of margin padding or height or width*/
+	border:2px solid red;
+	padding: 5px 3px 5px 3px;
+	max-height: 500px;
+	max-width: 555px;
+	min-height: 100px;/* min-width and min-height effect on padding.*/
+	min-width: 150px;
+}
+body{
+	background-image: url("index.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

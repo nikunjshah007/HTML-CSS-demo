@@ -1,0 +1,17 @@
+div.ab{/* this is a helpfull Mouse over the div element below to change its background color*/
+	background-color: green;
+	text-align: center;
+	margin: 10px;
+	padding: 100px;
+}
+div:hover.ab{
+	background-color: blue;
+}
+p.bb{/*this is help full for tolltip*/0
+	background-color: yellow;
+	display: none;
+	text-align: center;
+}
+div:hover p.bb{
+	display: block;	
+}

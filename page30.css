@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+}
+ul.top{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	width: 25%;
+	position: fixed;
+	height: 100%;
+}
+ul.top li a{
+	display: block;
+	padding:8px 16px;
+	text-decoration: none;
+	color: #000;
+}
+ul.top li a.active{
+	background: green;
+	color: white;
+}
+ul.top li a:hover:not(.active){
+    background: gray;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    ul.top {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.top li a {
+        float: left;
+        padding: 15px;
+    }
+    .div {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+    ul.top li a {
+        text-align: center;
+        float: none;}
+}
